@@ -625,6 +625,11 @@ h1,h2,h3,h4,h5,h6 {
 
 .tournamentsList .tournamentItem .head h4 {
     color: #7814ff;
+    font-size: 20px;
+}
+
+.tournamentsList .tournamentItem .head h4 span {
+    color: black;
     font-size: 24px;
 }
 
@@ -634,13 +639,13 @@ h1,h2,h3,h4,h5,h6 {
 
 .tournamentsList .tournamentItem .head p {
     color: #14141470;
-    font-weight: 500;
+    font-weight: 600;
     text-transform: uppercase;
 }
 
 .tournamentsList .tournamentItem .head p span {
     color: #7814ff;
-    font-weight: 500;
+    font-weight: 700;
     padding-left: 5px;
 }
 
@@ -650,13 +655,13 @@ h1,h2,h3,h4,h5,h6 {
 
 .tournamentsList .tournamentItem .head h6 {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     color: #14141470;
 }
 
 .tournamentsList .tournamentItem .head h6 span {
-    color: #7814ff;
-    font-weight: 500;
+    color: black;
+    font-weight: 700;
 }
 
 .tournamentsList .tournamentItem .bottom {
@@ -1490,7 +1495,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .latestMatches .matchItem .matchInfo .player .right .points span {
-    padding: 10px !important;
+    padding: 0px !important;
 }
 
 
@@ -1578,7 +1583,7 @@ h1,h2,h3,h4,h5,h6 {
     }
 
     .player {
-        margin-top: 70px;
+        margin-top: 100px;
     }
 }
 
@@ -2149,6 +2154,10 @@ h1,h2,h3,h4,h5,h6 {
     }
 }
 
+.latestMatches .matchItem .matchInfo .player .left h5 {
+    padding-left: 10px;
+}
+
 
 
  .statsBar {
@@ -2373,4 +2382,26 @@ h1,h2,h3,h4,h5,h6 {
     .latestMatches .matchItem {
         width: 100%;
     }
+}
+
+
+.latestMatches .matchItem .points span:nth-child(1), 
+.latestMatches .matchItem .points span:nth-child(3) {
+    width: 25px;
+    display: flex;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.082);
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
+}
+
+
+.latestMatches .matchItem .points span:nth-child(2) {
+    width: 25px;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
 }
