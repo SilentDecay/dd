@@ -638,15 +638,14 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .tournamentsList .tournamentItem .head p {
-    color: #14141470;
-    font-weight: 600;
-    text-transform: uppercase;
+    color: black;
+    font-weight: 400;
 }
 
 .tournamentsList .tournamentItem .head p span {
     color: #7814ff;
     font-weight: 700;
-    padding-left: 5px;
+    padding-left: 10px;
 }
 
 .tournamentsList .tournamentItem .head span {
@@ -1588,8 +1587,32 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 @media screen and (max-width: 600px) {
+    .tournamentsList .tournamentItem .head h4,
+    .tournamentsList .tournamentItem .head p {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tournamentsList .tournamentItem .head p span {
+        padding-left: 0;
+    }
 
 
+    .tournamentsList .tournamentItem .head h4 span {
+        font-size: 18px;
+    }
+
+    .tournamentsList .tournamentItem .head h4 {
+        font-size: 14px !important;
+    }
+
+    .tournamentsList .tournamentItem .head h6 {
+        font-size: 14px;
+    }
+
+    .tournamentsList .tournamentItem .bottom table tbody tr td {
+        font-size: 14px;
+    }
 
 } 
 
@@ -1864,19 +1887,11 @@ h1,h2,h3,h4,h5,h6 {
     }
 
 
-     h4 {
-        font-size: 20px !important;
-    }
-
     .matchStats .players .centerBlock {
         top: 90%;
         width: 70%;
         left: 12%;
         box-shadow: 0px 1px 5px 0px black;
-    }
-
-     {
-        gap: 30px;
     }
 
      .statsBar {
