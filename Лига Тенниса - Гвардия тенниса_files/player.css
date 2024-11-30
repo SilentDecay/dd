@@ -2437,3 +2437,84 @@ h1,h2,h3,h4,h5,h6 {
     align-items: center;
     padding: 0 !important;
 }
+
+
+#yeartodateBlock {
+    display: none;
+}
+
+.careerStats .items,
+.playerProfile .items {
+    flex-direction: column;
+    gap: 32px;
+}
+
+.careerStats .items .item,
+.playerProfile .items .item {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 2px rgba(0, 0, 0, 0.137) solid;
+    padding: 10px 0px;
+}
+
+.careerStats .items .item h4,
+.careerStats .items .item h5,
+.playerProfile .items .item h4,
+.playerProfile .items .item h5 {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.playerProfile .items .item h4,
+.playerProfile .items .item h5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.playerProfile .items .item h4 span,
+.playerProfile .items .item h5 span {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.658);
+}
+
+.playerProfile .items .item h5 {
+    align-items: end;
+}
+
+.playerProfile .items .item span,
+.careerStats .items .item span {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 600px) {
+    .playerProfile .items .item h5,
+    .playerProfile .items .item h4,
+    .careerStats .items .item h5,
+    .careerStats .items .item h4 {
+        font-size: 14px;
+    }
+
+    .playerProfile .items .item h5 span,
+    .playerProfile .items .item h4 span {
+        font-size: 10px;
+    }
+
+    .playerProfile .items .item span, .careerStats .items .item span {
+        font-size: 14px;
+    }
+
+    .playerProfile h4,
+    .prevMatches h4,
+    .careerStats h4 {
+        font-size: 22px;
+    }
+
+    .h2hPopap .wrapperPopap .matches {
+        padding-top: 0;
+    }
+}
