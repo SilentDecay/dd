@@ -1952,9 +1952,6 @@ h1,h2,h3,h4,h5,h6 {
         width: max-content;
     }
 
-     {
-        padding-top: 0;
-    }
 
      .playerProfile .items .right span,
      .playerProfile .items .left span,
@@ -1962,9 +1959,6 @@ h1,h2,h3,h4,h5,h6 {
         font-size: 14px;
     }
 
-     .playerProfile h4 {
-        font-size: 32px;
-    }
 
      .careerStats .items > div {
         gap: 30px;
@@ -1974,9 +1968,6 @@ h1,h2,h3,h4,h5,h6 {
         gap: 32px;
     }
 
-     .prevMatches h4 {
-        font-size: 28px;
-    }
 
     .matchStats .double .stats {
         padding-top: 50px;
@@ -2519,7 +2510,7 @@ h1,h2,h3,h4,h5,h6 {
     .playerProfile h4,
     .prevMatches h4,
     .careerStats h4 {
-        font-size: 22px;
+        font-size: 16px;
     }
 
     .h2hPopap .wrapperPopap .matches {
