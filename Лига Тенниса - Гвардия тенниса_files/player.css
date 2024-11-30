@@ -1595,11 +1595,12 @@ h1,h2,h3,h4,h5,h6 {
 
     .tournamentsList .tournamentItem .head p span {
         padding-left: 0;
+        font-size: 14px;
     }
 
 
     .tournamentsList .tournamentItem .head h4 span {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .tournamentsList .tournamentItem .head h4 {
@@ -1611,7 +1612,23 @@ h1,h2,h3,h4,h5,h6 {
     }
 
     .tournamentsList .tournamentItem .bottom table tbody tr td {
+        font-size: 12px;
+    }
+
+    .tournamentsList .tournamentItem .head {
+        padding: 20px 10px;
+    }
+
+    .tournamentsList .tournamentItem .bottom table thead tr th {
         font-size: 14px;
+    }
+
+    .tournamentsList .tournamentItem .seed h4 {
+        font-size: 14px;
+    }
+
+    .tournamentsList .tournamentItem {
+        gap: 5px;
     }
 
 } 
