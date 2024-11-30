@@ -2446,7 +2446,7 @@ h1,h2,h3,h4,h5,h6 {
 .careerStats .items,
 .playerProfile .items {
     flex-direction: column;
-    gap: 32px;
+    gap: 0;
 }
 
 .careerStats .items .item,
