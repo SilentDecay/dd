@@ -2195,31 +2195,31 @@ h1,h2,h3,h4,h5,h6 {
  .statsBar {
     display: flex;
     gap: 30px;
-    align-items: end;
+    align-items: center;
     position: absolute;
+    margin-top: 50px;
 }
 
  .statsBar .left {
     display: flex;
     flex-direction: column;
     border: none !important;
+    align-items: center;
 }
 
  .statsBar .left h2 {
-    padding: 0px 18px;
-    color: white;
-    font-size: 60px;
-    background-color: #7814ff;
+    color: #7814ff;
+    font-size: 80px;
+    line-height: 100%;
 }
 
  .statsBar .left p {
-    font-size: 26px;
-    font-weight: 700;
-    align-self: end;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.418);
 }
 
  .statsBar .left span {
-    align-self: end;
     font-weight: 500;
 }
 
@@ -2227,18 +2227,19 @@ h1,h2,h3,h4,h5,h6 {
     display: flex;
     flex-direction: column;
     border: none !important;
+    align-items: center;
 }
 
  .statsBar .right h2 {
-    padding: 0px 18px;
     color: black;
-    font-size: 60px;
-    background-color: rgba(0, 0, 0, 0.144);
+    font-size: 80px;
+    line-height: 100%;
 }
 
  .statsBar .right p {
-    font-size: 26px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.418);
 }
 
  .statsBar .right span {
@@ -2290,9 +2291,13 @@ h1,h2,h3,h4,h5,h6 {
         font-size: 15px;
     }
 
+    .statsBar {
+        margin-top: 0;
+    }
+    
+
     .statsBar .left h2 {
         color: #7814ff;
-        align-self: flex-end;
     }
 
     .statsBar .left span,
@@ -2332,11 +2337,13 @@ h1,h2,h3,h4,h5,h6 {
 @media screen and (max-width: 500px) {
     .statsBar {
         padding-top: 0;
+        margin-top: -40px;
     }
 
     .playerProfile .items .centerItem {
         margin-top: 20px;
     }
+    
 }
 
 
@@ -2463,7 +2470,7 @@ h1,h2,h3,h4,h5,h6 {
 .careerStats .items .item h5,
 .playerProfile .items .item h4,
 .playerProfile .items .item h5 {
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -2475,7 +2482,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .playerProfile .items .item h4 span,
 .playerProfile .items .item h5 span {
-    font-size: 16px;
+    font-size: 14px;
     color: rgba(0, 0, 0, 0.658);
 }
 
@@ -2488,6 +2495,7 @@ h1,h2,h3,h4,h5,h6 {
     color: black;
     font-size: 16px;
     font-weight: 600;
+    text-align: center;
 }
 
 
