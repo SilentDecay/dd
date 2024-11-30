@@ -1,0 +1,78 @@
+.bracket {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.column:first-child .match-lines.alt {
+  display: none;
+}
+.column:last-child .match-lines {
+  display: none;
+}
+.column:last-child .match-lines.alt {
+  display: block;
+}
+.column:nth-child(2) .match-lines .line.two {
+  height: 88px;
+}
+.column:nth-child(3) .match-lines .line.two {
+  height: 175px;
+}
+.column:nth-child(4) .match-lines .line.two {
+  height: 262px;
+}
+.column:nth-child(5) .match-lines .line.two {
+  height: 349px;
+}
+
+
+.match {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 240px;
+  max-width: 240px;
+  height: 62px;
+  margin: 12px 24px 12px 0;
+}
+
+.p1-team,
+.p2-team {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.p1-name,
+.p2-name {
+  flex: 1; /* Растягиваем имя на всю доступную ширину */
+}
+
+.match-score {
+  display: flex; /* Располагаем счет по горизонтали */
+  align-items: center; /* Выравниваем элементы по вертикали */
+}
+
+.match-score span {
+  margin: 0 5px; /* Добавляем небольшие отступы между элементами счета */
+}
+
+.p1-team.winner,
+.p2-team.winner {
+  background-color: lightgreen; /* Цвет фона для победителя */
+  border-color: darkgreen; /* Цвет рамки для победителя */
+}
+

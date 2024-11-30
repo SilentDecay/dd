@@ -1,0 +1,378 @@
+.matchItem {
+    font-family: 'montserrat';
+}
+
+.matchItem h4 {
+    font-family: 'montserrat';
+    font-size: 10px !important;
+    text-transform: uppercase;
+}
+
+.matchItem h4 a {
+    text-decoration: none;
+}
+
+.matchItem .matchTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 4px 4px;
+    box-sizing: border-box;
+}
+
+.activeMatchItem .matchTitle {
+    background-color: #7814ff;
+}
+
+.activeMatchItem .matchTitle h4 {
+    color: white;
+}
+
+.activeMatchItem .matchTitle h4 span {
+    color: rgba(255, 255, 255, 0.699) !important;
+}
+
+.activeMatchItem .matchTitle span:last-child {
+    color: white;
+}
+
+.err {
+    padding: 2px;
+    font-size: 10px;
+    color: white;
+    background-color: #7814ff;
+}
+
+.matchItem .matchTitle span {
+    color: rgba(0, 0, 0, 0.671);
+    font-size: 10px;
+}
+
+.matchItem .matchTitle h4 span {
+    color: dodgerblue;
+    font-size: 10px;
+}
+
+.matchItem {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px rgba(23, 0, 33, 0.05);
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.03);
+    border-radius: 16px;
+    padding: 15px 10px;
+    min-width: 305px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.matchItem .peoples {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding-right: 5px;
+}
+
+.matchItem .peoples .people {
+    display: flex;
+    justify-content: space-between;
+}
+
+.matchItem .peoples .people span {
+    font-family: 'montserrat';
+    font-size: 12px;
+}
+
+.matchItem .peoples .people img {
+    width: 10px;
+    height: 10px;
+}
+
+.matchItem .peoples .peopleDouble .doublePeoples {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.matchItem .peoples .people .statistic span {
+    font-weight: 500;
+    width: 12px;
+    height: 12px;
+    text-align: center;
+}
+
+.matchItem .peoples .people .statistic {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.matchItem .rules {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 4px 4px;
+    box-sizing: border-box;
+}
+
+.activeMatchItem .rules {
+    background-color: rgba(0, 0, 0, 0.082);
+    
+}
+
+.deActiveMatchItem .rules,
+.deActiveMatchItem .matchTitle {
+    background-color: rgba(0, 0, 0, 0.082);
+}
+
+.deActiveMatchItem .matchInfo::after {
+    background: linear-gradient(to bottom, #7814ff 50%, black 50%) !important;
+}
+
+.activeMatchItem .matchInfo::after {
+    background: linear-gradient(to bottom, #7814ff 50%, black 50%) !important;
+}
+
+.matchItem .rules a {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.matchItem .rules a img {
+    width: 12px;
+    height: 12px;
+    margin-left: 5px;
+    margin-right: 3px;
+}
+
+.matchItem .rules a span {
+    color: dodgerblue;
+    font-size: 12px;
+    font-weight: 400;
+    align-self: flex-end;
+}
+
+.matchItem .rules span {
+    font-family: 'montserrat';
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.points span:nth-child(1),
+.points span:nth-child(3) {
+    position: relative
+}
+
+.points span:nth-child(1)::after,
+.points span:nth-child(3)::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    top: 0;
+    left: 0;
+}
+
+.matchItem .matchInfo .player:nth-child(3) .points span:nth-child(1)::after,
+.matchItem .matchInfo .player:nth-child(3) .points span:nth-child(3)::after {
+    top: -1px;
+}
+
+.matchItem .matchInfo .player:nth-child(3) .points span:nth-child(1)::before,
+.matchItem .matchInfo .player:nth-child(3) .points span:nth-child(3)::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ball {
+    width: 15px !important;
+    height: 15px !important;
+}
+
+
+
+.matchItem {
+    display: flex;
+    align-items: center;
+    border-radius: 0;
+    gap: 0px !important;
+}
+
+.matchItem .left {
+    display: flex;
+    flex-direction: column; 
+    align-items: start;
+}
+
+.matchItem .matchInfo {
+    gap: 0;
+}
+
+.matchItem .matchInfo .player .left {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.matchItem .left .item {
+    display: flex;
+    gap: 5px;
+}
+
+.matchItem .left h5 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #7814ff;
+}
+
+.matchItem .left h6 {
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.matchItem .left span {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.matchItem .matchInfo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+
+.matchItem .matchInfo::after {
+    content: '';
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(to bottom, rgb(126, 24, 221) 50%, rgba(0, 0, 0, 0.082) 50%);;
+    position: absolute;
+    left: 0px;
+}
+
+.matchItem .matchInfo .player {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0 !important;
+}
+
+.matchItem .matchInfo hr {
+    height: 1px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.082);
+}
+
+.matchItem .matchInfo .player .left {
+    display: flex;
+    gap: 0;
+    align-items: center;
+    flex-direction: column;
+}
+
+.matchItem .matchInfo .player .left img {
+    width: 32px;
+    height: 18px;
+    object-fit: cover;
+    border: 1px black solid;
+}
+
+.matchItem .matchInfo .player .left h5 {
+    font-size: 14px;
+    padding-left: 5px;
+    color: black;
+    font-weight: 500;
+}
+
+.matchItem .matchInfo .player .right {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.points {
+    display: flex;
+    gap: 0px !important;
+    align-items: center;
+    padding-left: 0px;
+}
+
+.points span:nth-child(1),
+.points span:nth-child(3) {
+    padding: 20px 10px;
+    background-color: rgba(0, 0, 0, 0.082);
+}
+
+.points span:nth-child(2) {
+    padding: 20px 10px;
+}
+
+.points span:nth-child(3) {
+    padding: 20px 10px;
+    width: max-content;
+}
+
+.matchItem .matchInfo .player .right img {
+    width: 12px;
+    height: 12px;
+}
+
+.matchItem .matchInfo .player .right span {
+    font-weight: 500 !important;
+    font-size: 14px !important;
+}
+
+.matchItem {
+    gap: 5px;
+    padding: 0;
+    box-shadow: none;
+}
+
+.doubleMatchItem .matchInfo {
+    gap: 0;
+}
+
+.doubleMatchItem .matchInfo .player .left {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.doubleMatchItem .left .item {
+    display: flex;
+    gap: 5px;
+}
+
+.matchItem .matchInfo .player .right .err {
+    padding: 2px !important;
+    font-size: 10px !important;
+    color: white;
+    background-color: #7814ff;
+}
+
+.matchItem .matchInfo .player .right .gameScore {
+    color: rgb(59, 183, 221);
+}
